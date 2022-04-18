@@ -5,8 +5,9 @@ import './Rating.css';
 
 export default function Rating() {
 
-    const showThanks = () => {
-        console.log("Say Thanks");
+    const addActive = () => {
+        document.getElementsByClassName('rate').classList.remove('active');
+        // document.getElementById(id).classList.add("active");
     }
 
     return (
@@ -21,28 +22,28 @@ export default function Rating() {
                 <p>Please let us know how we did with your support request. All feedback is appreciated to help us improve our offering!</p>
 
                 <div className="rates">
-                    <div className="rate">
+                    <span id="1" className="active rate" onClick={() => addActive()}>
                         1
-                    </div>
+                    </span>
 
-                    <div className="rate">
+                    <span id="2" className="rate" onClick={() => addActive()}>
                         2
-                    </div>
+                    </span>
 
-                    <div className="rate">
+                    <span id="3" className="rate" onClick={() => addActive()}>
                         3
-                    </div>
+                    </span>
 
-                    <div className="rate">
+                    <span id="4" className="rate" onClick={() => addActive()}>
                         4
-                    </div>
+                    </span>
 
-                    <div className="rate">
+                    <span id="5" className="rate" onClick={() => addActive()}>
                         5
-                    </div>
+                    </span>
                 </div>
 
-                <button className="submit" onClick={() => showThanks()}>submit</button>
+                <button className="submit">submit</button>
             </div>
 
             <div className="thanks">

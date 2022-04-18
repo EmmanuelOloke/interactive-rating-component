@@ -69,6 +69,10 @@ p {
     background-color: hsl(217, 12%, 63%);
 }
 
+.active {
+    background-color: hsl(25, 97%, 53%);
+}
+
 .submit {
     border: none;
     text-transform: uppercase;
