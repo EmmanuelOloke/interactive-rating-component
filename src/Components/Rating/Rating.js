@@ -43,7 +43,6 @@ export default function Rating() {
 
           <div className="rates">
             <span
-              id="1"
               className={`rate ${selected === 1 && 'active'}`}
               onClick={() => changeSelected(1)}
             >
@@ -51,7 +50,6 @@ export default function Rating() {
             </span>
 
             <span
-              id="2"
               className={`rate ${selected === 2 && 'active'}`}
               onClick={() => changeSelected(2)}
             >
@@ -59,7 +57,6 @@ export default function Rating() {
             </span>
 
             <span
-              id="3"
               className={`rate ${selected === 3 && 'active'}`}
               onClick={() => changeSelected(3)}
             >
@@ -67,7 +64,6 @@ export default function Rating() {
             </span>
 
             <span
-              id="4"
               className={`rate ${selected === 4 && 'active'}`}
               onClick={() => changeSelected(4)}
             >
@@ -75,7 +71,6 @@ export default function Rating() {
             </span>
 
             <span
-              id="5"
               className={`rate ${selected === 5 && 'active'}`}
               onClick={() => changeSelected(5)}
             >
