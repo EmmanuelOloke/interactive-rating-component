@@ -66,11 +66,11 @@ p {
 
 .rate:hover {
     color: hsl(0, 0%, 100%);
-    background-color: hsl(217, 12%, 63%);
+    background-color: hsl(25, 97%, 53%);
 }
 
 .active {
-    background-color: hsl(25, 97%, 53%);
+    background-color: hsl(217, 12%, 63%);
 }
 
 .submit {
