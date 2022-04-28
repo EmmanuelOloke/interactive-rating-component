@@ -15,7 +15,7 @@ This is the tenth challenge I'm attempting. My completion time is getting shorte
 ## Links
 
 - Solution: [https://www.frontendmentor.io/solutions/ecommerceproductpage-built-with-html-css-and-reactjs-tzltGwetj]
-- Live Site URL: [https://emmanueloloke.github.io/e-commerce-product-page/]
+- Live Site URL: [https://emmanueloloke.github.io/interactive-rating-component/]
 
 ## My Process
 
